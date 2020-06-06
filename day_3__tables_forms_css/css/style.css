@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: blue;
+}
+
+.main__section {
+  width: 90%;
+  height: 300px;
+  border: 10px dotted #ff6600;
+  background-color: #e8e8e8;
+  color: blue;
+}
+
+.sub__head {
+  /* color: #ff6600; */
+  text-align: right;
+}
+
+.main__head {
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  /* color: #333; */
+  text-align: center;
+}
+
+.some__ul-data {
+  list-style: none;
+}
+
+/* header and navigation  */
+.body__header {
+  background-color: #333;
+}
+
+.body__header header {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+ul li {
+  /* alll list item in one row */
+  display: inline;
+  background-color: blue;
+}
+
+/* bottom a  */
+.block {
+  /* will take 100% width */
+  background-color: red;
+  margin-bottom: 2px;
+  display: block;
+}
