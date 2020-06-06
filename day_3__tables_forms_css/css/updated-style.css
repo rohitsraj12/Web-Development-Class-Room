@@ -1,0 +1,6 @@
+.block {
+  /* will take 100% width */
+  background-color: yellow;
+  margin-bottom: 2px;
+  display: block;
+}
