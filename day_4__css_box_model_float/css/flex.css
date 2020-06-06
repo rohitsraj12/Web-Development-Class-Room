@@ -1,4 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.body__header {
+  background-color: rgb(0, 168, 173);
+  padding: 20px 0;
+}
+
+.body__header header {
+  width: 70%;
+  height: 120px;
+  margin: 0 auto;
+  background-color: red;
+
+  /* aligning nav right and logo left */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* targetting logo image */
+.header__brand img {
+  height: 120px;
+}
+
+/* navigation section alignment */
+.header__nav {
+  width: 40%;
+  background-color: #fff;
+}
+
+.header__nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .header__nav ul li + li {
+  margin-left: 30px;
+} */
+
+.header__nav ul li a {
+  font-size: 20px;
+  color: blue;
 }
